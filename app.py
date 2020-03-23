@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 
-from Resouces.sample import Sample
+from Resources.sample import Sample
 
 app = Flask(__name__)
 api = Api(app)
